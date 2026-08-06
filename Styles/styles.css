@@ -1,3 +1,4 @@
+/* General */
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +6,9 @@
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
+    background-color: #C1292E;
 }
+
 a{
     text-decoration: none;
     color: inherit;
@@ -21,12 +24,23 @@ a{
 
 
 /* Botones */
+.container_logo{
+    width: 30%;
+    align-items: flex-start;
+}
+
+.container_logo a{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .container_logo img {
     width: 10%;
     height: auto;
     border-radius: 50%;
 }
-.container_buttons{
+.container_buttons {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,4 +56,25 @@ a{
 .carrito img{
     width: 20px;
     height: 20px;
+}
+
+/** Footer */
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #D67A86;
+}
+
+.container_logo_footer img{
+    width: 70px;
+    height: 70px;
+    border-radius: 30px;
+}
+
+.contacto {
+    display: flex;
+}
+.contacto img{
+    width: 70px;
+    height: 70px;
 }
